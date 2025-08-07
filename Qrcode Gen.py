@@ -20,5 +20,6 @@ if st.button("🔄 Generate QR Code") and input_data:
     img.save(buffer, format="PNG")
     buffer.seek(0)
 
-    st.image(img, caption="QR Code Anda", use_column_width=False)
+    st.image(img, caption="QR Code Anda", use_container_width=True)
     st.download_button("⬇️ Download QR Code", data=buffer, file_name="qrcode.png", mime="image/png")
+
