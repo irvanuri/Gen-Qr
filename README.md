@@ -1,0 +1,2 @@
+# Gen-Qr
+Generate QRcode
